@@ -8,7 +8,7 @@ O servidor de testes da OBSAT foi lançado, agora você pode fazer requisições
 
 **Informações gerais:**
 
-- Link para fazer a requisição pelo bipes: https://obsat.org.br/teste_post/envio_bipes.php 
+- Link para fazer a requisição pelo BIPES: https://obsat.org.br/teste_post/envio_bipes.php 
 - Link para refazer a requisição de outra maneira (Curl): https://obsat.org.br/teste_post/envio.php 
 - Link para visualizar as requisições: https://obsat.org.br/teste_post/index.php
 - Exemplo de Implementação: https://bipes.net.br/ide/?lang=pt-br#w2v6ep
