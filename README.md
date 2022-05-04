@@ -1,6 +1,7 @@
 # OBSAT-MCTI
 
 ## Servidor de testes lançado
+Acesse em Materiais/Servidor de testes
 
 
 
