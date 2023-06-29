@@ -6,4 +6,4 @@ Esta pasta contém os editais públicos para a OBSAT MCTI. Os editais aqui dispo
 
 Esta pasta será atualizada regularmente com atualizações nos editais e informações importantes sobre a competição. Fique atento para não perder nenhuma atualização!
 
-Obrigado por participar da OBSAT MCTI e boa sorte na Olimpíada!]
+Obrigado por participar da OBSAT MCTI e boa sorte na Olimpíada!
