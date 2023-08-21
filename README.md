@@ -1,102 +1,20 @@
 # OBSAT-MCTI
 
-## Servidor de testes lançado
-Acesse em Materiais/Servidor de testes
+## Sobre a Olimpíada Brasileira de Satélites MCTI (OBSAT MCTI)
 
+A Olimpíada Brasileira de Satélites MCTI é uma Olimpíada Científica de abrangência nacional, concebida pelo Ministério da Ciência, Tecnologia e Inovações (MCTI), e organizada pela Universidade Federal de São Carlos (UFSCar) com apoio e parceria da Agência Espacial Brasileira (AEB/MCTI), do Instituto Nacional de Pesquisas Espaciais (INPE/MCTI), da Liga Amadora Brasileira de Rádio Emissão (LABRE) e da Escola de Engenharia de São Carlos (EESC), da Universidade de São Paulo (USP). As olimpíadas científicas são iniciativas para promover a popularização e difusão da ciência e tecnologia junto aos estudantes brasileiros, além de despertar o interesse por carreiras na área de ciência e tecnologia de forma atrativa, e sempre que possível, prática.
 
+A OBSAT MCTI tem por objetivo promover experiências teóricas e práticas em projetos de satélites de pequeno porte, difundindo a cultura aeroespacial para estudantes e professores de instituições de ensino de nível médio, técnico profissionalizante, e universitários. A OBSAT MCTI é uma olimpíada científica nacional, multidisciplinar e gratuita para qualquer aluno regularmente matriculado em instituições brasileiras de ensino fundamental, médio, técnico ou superior. Como objeto de trabalho, e, em simultâneo, ferramenta de aprendizado, utilizam-se pequenos satélites, chamados de smallsats.
 
-O servidor de testes da OBSAT foi lançado, agora você pode fazer requisições usando seu satélite!
+### Sobre o repositório
 
-**Informações gerais:**
+Este repositório contém todo o conteúdo compartilhado pela Comissão Organizadora da Olimpíada Brasileira de Satélites (OBSAT-MCTI). O conteúdo está dividido nos seguintes diretórios:
 
-- Link para fazer a requisição pelo BIPES: https://obsat.org.br/teste_post/envio_bipes.php 
-- Link para refazer a requisição de outra maneira (Curl): https://obsat.org.br/teste_post/envio.php 
-- Link para visualizar as requisições: https://obsat.org.br/teste_post/index.php
-- Exemplo de Implementação: https://bipes.net.br/ide/?lang=pt-br#w2v6ep
-- Obs: A implementação é apenas um exemplo, o seu payload não precisa necessariamente ter os mesmos campos que o do exemplo.
-
-
-## Deu erro, e agora?
-
-
-Primeiro, preste atenção no campo "Status". O Status geralmente irá dizer o erro para você. 	
-
-
-### Lista de Erros:
-
-
-**Tamanho limite do Payload excedido:**<br>
-Causa: O valor do payload está extremamente grande (Maior do que o banco pode suportar).<br>
-Solução: Diminua o número de informações do payload, e verifique se você está enviando corretamente.<br>
-
-**A requisicao recebida não é um JSON**<br>
-Causa: A sua requisição possui um JSON mal formatado<br>
-Solução: Falta de aspas e chaves são os motivos mais comuns, preste atenção em como seu JSON está formatado, mais abaixo, um link será disponibilizado de uma plataforma que verifica se um JSON é válido.<br>
-
-**O JSON recebido nao segue a formatacao correta**<br>
-Causa: Seu JSON não possui todos o(s) campo(s) que deveria ter.<br>
-Solução: Verifique se eles estão escritos de maneira IDÊNTICA aos campos corretos. Uma lista com todos os campos estará logo abaixo.<br>
-
-
-**Truncado**<br>
-Causa: O campo payload possui mais de 90 bytes e menos que 500 bytes, logo, ele foi truncado com o último campo válido<br>
-Solução: Verifique o tamanho do seu payload, muito possivelmente ele está enviando dados extremamente grandes<br>
-
-
-**N/A**<br>
-Causa: Algum erro aconteceu, e os campos associados a sua requisição não foram enviados.<br>
-Solução: Verifique o status, e por que isso ocorreu<br>
-
-
-**Nada aconteceu**<br>
-Causa: Isso pode ter mais de uma causa, mas geralmente, ou você enviou um JSON muito grande, que está acima do limite máximo do banco de dados, ou você não programou o BIPES corretamente<br>
-Solução: Preste atenção no tamanho do seu JSON, e confira o link de exemplo, muito provavelmente, você não deve ter feito o procedimento de envio corretamente.<br>
-
-
-### **Informações adicionais**
-
-Site para verificar se um JSON é válido 
-https://jsonformatter.org/json-viewer 
-
-Link para o edital (Cheque o apêndince 1, no final do arquivo)
-https://github.com/OBSAT-MCTI/OBSAT-MCTI/blob/main/editais/1a_OBSAT%20MCTI_Fases_2_11_04_2022.pdf
-
-Todos os campos necessários:
-```json
-equipe
-bateria
-temperatura
-pressao
-giroscopio
-acelerometro
-payload
-```
-
-## F.A.Q
-
-**O site não apresenta todas as colunas**<br>
-Isso acontece porque alguma requisição deve ter sido extremamente larga, tire o zoom da página (CRTL -).
-
-**Meu payload não está por inteiro**<br>
-Isso acontece porque ele superou o limite máximo de 90 bytes, diminua o tamanho.
-
-**Encontrei uma requisição maliciosa, o que devo fazer?**<br>
-Contate algum administrador que ele irá remove-la. **Requisições maliciosas serão rastreadas, e os responsáveis serão punidos, podendo ser desclassificados da OBSAT, e banidos das próximas edições**
-
-**Minhas requisições serão armazenadas para sempre?**<br>
-Não, elas serão removidas automaticamente após 24 horas.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+* `apresentacoes`: Este subdiretório contém apresentações sobre a OBSAT-MCTI e seus temas relacionados.
+* `autorizacoes`: Este subdiretório contém autorizações para a realização da OBSAT-MCTI.
+* `caderno_de_programa_eventos`: Este diretório contém cadernos de programa de eventos da OBSAT-MCTI.
+* `divulgacao`: Este diretório contém materiais de divulgação da OBSAT-MCTI, como cartazes, panfletos e vídeos.
+* `editais`: Este diretório contém editais da OBSAT-MCTI, incluindo o edital da edição atual e editais anteriores.
+* `modalidade_teorica`: Este diretório contém materiais relacionados à prova teórica da OBSAT-MCTI, incluindo a prova e seu gabarito.
+* `modelos_3D`: Este diretório contém arquivos STL para impressão das tampas e form factor dos satélites utilizados na OBSAT-MCTI.
+* `servidor_testes`: Este diretório contém informações sobre o servidor de testes para a telemetria da OBSAT-MCTI.
