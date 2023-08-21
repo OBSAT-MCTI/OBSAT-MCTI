@@ -1,11 +1,5 @@
 # OBSAT-MCTI
-
-## Servidor de testes lançado
-Acesse em Materiais/Servidor de testes
-
-
-
-O servidor de testes da OBSAT foi lançado, agora você pode fazer requisições usando seu satélite!
+## Servidor de testes
 
 **Informações gerais:**
 
