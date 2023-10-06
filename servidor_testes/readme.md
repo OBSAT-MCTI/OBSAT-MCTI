@@ -81,4 +81,4 @@ Contate algum administrador que ele irá remove-la. **Requisições maliciosas s
 Não, elas serão removidas automaticamente após 24 horas.
 
 O servidor de testes oficial, desenvolvido pola equipe do projeto Zenith, pode ser acessado em:
-https://github.com/zenitheesc/serverd
+https://github.com/zenitheesc/Telemetria-OBSat-MCTI/tree/main
