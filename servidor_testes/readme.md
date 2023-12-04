@@ -6,7 +6,7 @@
 - Link para fazer a requisição pelo BIPES: https://obsat.org.br/teste_post/envio_bipes.php 
 - Link para refazer a requisição de outra maneira (Curl): https://obsat.org.br/teste_post/envio.php 
 - Link para visualizar as requisições: https://obsat.org.br/teste_post/index.php
-- Exemplo de Implementação: https://bipes.net.br/ide/?lang=pt-br#w2v6ep
+- Exemplo de Implementação: https://bipes.net.br/ide/?lang=pt-br#btyyen
 - Obs: A implementação é apenas um exemplo, o seu payload não precisa necessariamente ter os mesmos campos que o do exemplo.
 
 
